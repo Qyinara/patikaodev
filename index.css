@@ -1,0 +1,115 @@
+body{
+    /*background-color: rgba(163, 161, 161, 0.237);*/
+    background-image: url("img/ZOcLM7hg.jpg");
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dd5c62;
+}
+
+
+
+nav li{
+    float: left;
+}
+
+nav li a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-family: cursive;
+}
+
+nav li a:hover{
+    background-color: rgb(23, 109, 222);
+}
+
+.active{
+    background-color: rgb(23, 109, 222);
+}
+
+.contact{
+    float: right;
+}
+h1{
+    text-align: center;
+    font-family: 'Press Start 2P',cursive;
+    font-size: 50px;
+    text-shadow: 0 0 12px #ff0000;
+    font-weight: bold;
+       
+}
+
+h2{
+    font-family: cursive;
+}
+
+h1:hover{
+    text-shadow: 0 0 12px blue;
+}
+
+footer{
+    background-color: rgb(49, 47, 47);
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    position: fixed;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr{
+    width: 50%;
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray
+}
+
+.deneme{
+    text-align: center;
+    transition: 0.5s;
+}
+
+.deneme:hover{
+    transform: scale(1,2);
+}
+
+
+.urunler{
+    text-align: center;
+    transition: 0.5s;
+}
+
+.urunler:hover{
+    transform: scale(1,2);
+}
+
+
+
+h2 {
+    margin-bottom: 2em;
+  }
+  
+
+.e {
+     position: relative; left: 3em;
+    }
+
+.aciklama{
+    font-weight: bolder;
+}
+
+.ozellikler{
+    position: relative; left: 2em;
+}
